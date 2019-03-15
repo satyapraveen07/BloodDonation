@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>donor</title>
+	 <link rel="shortcut icon" href="blood.svg" />
+	<link rel="stylesheet" type="text/css" href="recepients.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav>
+
+		<a href="#">home</a>
+		<a href="#">become a donor</a>
+		<img class="logo" src="logo1.png" width="100" height="100">
+		<a href="#">explore blood banks</a>
+		<a href="#">FAQ</a>
+	</nav>
+	<div class="centered">
+		<p align="center">Please fill the following information to register as voluntary blood donor and become part of a greater good. Kindly update your date of donation once done, so that your name will be hidden automatically till next 3 Months. Also please update your profile/information if in case you relocate in future.</p>
+		<table align="center" cellpadding='0' cellspacing='0' border='0'>
+			<form name="myform" onsubmit="return validation()" method="post">
+					<br>
+				<tr>
+					<td>
+						<strong>Full Name</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtDonorName" type="text" maxlength="100" id="txtDonorName" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Blood Group</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<select name="dpBloodGroup" id="dpBloodGroup">
+							<option value="Select"></option>
+							<option value="A+">A+</option>
+							<option value="A-">A-</option>
+							<option value="B+">B+</option>
+							<option value="B-">B-</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+							<option value="O+">O+</option>
+							<option value="O-">O-</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Age</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtAge" type="text" maxlength="3" id="txtAge" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Mobile Number&emsp;<br />
+						</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtMobileNumber" type="text" maxlength="10" id="txtMobileNumber" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>E-mail adress</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtDonorEmail" type="text" maxlength="100" id="txtDonorName" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Location</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtLocation" type="text" maxlength="100" id="txtLocation" class="textarea" />
+					</td>
+				</tr>
+					<tr>
+					<td>
+						<strong>Date</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtDate" type="date" maxlength="3" id="txtDate" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input name="hdnPostYourBloodRequestID" type="hidden" id="hdnPostYourBloodRequestID" />
+					</td>
+					<td height="30">
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="30">
+						<div align="center">
+							&nbsp;
+							<input type="submit" name="btnSubmit" value="Submit" /></div>
+					</td>
+				</tr>
+			</form>
+		</table>
+	
+	</div>
+
+	<footer class="footer-basic-centered">
+
+		<p class="footer-company-motto">Share a little, care a little – Donate Blood.</p>
+
+		<p class="footer-links">
+			<a href="#">Home</a>
+			·
+			<a href="#">Become a donor</a>
+			·
+			<a href="#">Explore blood banks</a>
+			·
+			<a href="#">About</a>
+			·
+			<a href="#">Faq</a>
+		</p>
+
+		<p class="footer-company-name">Blood donation &copy; 2019</p>
+
+	</footer>
+</body>
+
+</html>

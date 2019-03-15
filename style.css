@@ -1,0 +1,134 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	background: black;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	box-shadow: 0px 15px 10px -15px #111;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin: 0 20px;
+	padding: 15px 20px;
+	border: 0 solid black;
+	border-radius: 15px;
+	transition: .6s ease;
+}
+
+nav a:hover {
+	color: black;
+	background-color: white;
+}
+
+input[type="submit"] {
+	background-color: black;
+	padding: 5px 20px;
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 19px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	color: white;
+}
+
+.centered {
+	padding-top: 100px;
+}
+p{
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+input[type="submit"]:hover {
+	color: white;
+	background-color: #292c2f;
+}
+
+input,
+select {
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+select {
+	-moz-appearance: none;
+	background-image:
+		linear-gradient(45deg, transparent 50%, white 50%),
+		linear-gradient(135deg, white 50%, transparent 50%),
+		linear-gradient(to right, black, black);
+	background-position:
+		calc(100% - 20px) calc(1em + 2px),
+		calc(100% - 15px) calc(1em + 2px),
+		100% 0;
+	background-size:
+		5.5px 5.5px,
+		5.5px 5.5px,
+		3em 3.5em;
+	background-repeat: no-repeat;
+	padding-right: 127px;
+	transition: .6s ease;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.footer-basic-centered {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 45px;
+	margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto {
+	color: #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name {
+	color: #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links {
+	list-style: none;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+footer {
+	clear: both;
+}

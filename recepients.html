@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>recipent</title>
+	 <link rel="shortcut icon" href="blood.svg" />
+	<link rel="stylesheet" type="text/css" href="recepients.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav>
+
+		<a href="#">home</a>
+		<a href="#">become a donor</a>
+		<img class="logo" src="logo1.png" width="100" height="100">
+		<a href="#">explore blood banks</a>
+		<a href="#">FAQ</a>
+	</nav>
+	<div class="centered">
+		<p align="center">Please fill the following information to post your blood request. We will inform our donors and we hope the needy people recover soon</p>
+		<table align="center" cellpadding='0' cellspacing='0' border='0'>
+			<form name="myform" onsubmit="return validation()" method="post">
+				<br>
+				<tr>
+					<td>
+						<strong>Patient Full Name</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtPatientName" type="text" maxlength="100" id="txtPatientName" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Patient Blood Group</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<select name="dpBloodGroup" id="dpBloodGroup">
+							<option value="Select"></option>
+							<option value="A+">A+</option>
+							<option value="A-">A-</option>
+							<option value="B+">B+</option>
+							<option value="B-">B-</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+							<option value="O+">O+</option>
+							<option value="O-">O-</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Patient Age</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtAge" type="text" maxlength="3" id="txtAge" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>When you need blood?<br>
+							<font color="#ff0000" size="1">(DD/MM/YYYY)</font>
+						</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtWhenYouNeedDate" type="text" maxlength="10" id="txtWhenYouNeedDate" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>How many units you need?&emsp;</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtHowManyUnits" type="text" maxlength="2" id="txtHowManyUnits" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Mobile Number<br />
+						</strong>
+						<font color="blue" size="1">(Please enter phone number without STD code)</font>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtMobileNumber" type="text" maxlength="10" id="txtMobileNumber" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>E-mail adress</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtPatientEmail" type="text" maxlength="100" id="txtPatientName" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Location</strong>
+					</td>
+					<td height="30">
+
+					</td>
+					<td>
+						<input name="txtLocation" type="text" maxlength="100" id="txtLocation" class="textarea" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input name="hdnPostYourBloodRequestID" type="hidden" id="hdnPostYourBloodRequestID" />
+					</td>
+					<td height="30">
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="30">
+						<div align="center">
+							&nbsp;
+							<input type="submit" name="btnSubmit" value="Submit" /></div>
+					</td>
+				</tr>
+			</form>
+		</table>
+		<p align="center">
+			&#9888; Please use this form sensibly. You will be contacting persons who are kind enough to save someone's life. Please do not misuse it.
+		</p>
+	</div>
+
+	<footer class="footer-basic-centered">
+
+		<p class="footer-company-motto">Share a little, care a little – Donate Blood.</p>
+
+		<p class="footer-links">
+			<a href="#">Home</a>
+			·
+			<a href="#">Become a donor</a>
+			·
+			<a href="#">Explore blood banks</a>
+			·
+			<a href="#">About</a>
+			·
+			<a href="#">Faq</a>
+		</p>
+
+		<p class="footer-company-name">Blood donation &copy; 2019</p>
+
+	</footer>
+</body>
+
+</html>
